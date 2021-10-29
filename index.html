@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+<div class="container">
+  <div class="main">
+    <div class="main__title">
+        Оформление заказа
+    </div>
+    <div class="main__back">↑ Назад к корзине</div>
+  </div>
+  <div class="checkout">
+    <div class="dilivery">
+      <div class="diliveru__auth">
+        <div class="checkout__title">
+        Доставка
+        <div class="arrows">
+          <div class="arrows__prev">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.25">
+              <rect x="0.5" y="0.5" width="40" height="40" rx="3.5" fill="white"/>
+              <path d="M16.0463 20L24.2963 28.25L21.9397 30.6066L11.333 20L21.9397 9.39331L24.2963 11.75L16.0463 20Z" fill="#333333"/>
+              <rect x="0.5" y="0.5" width="39" height="39" rx="3.5" stroke="#D6D6D6"/>
+              </g>
+              </svg>
+          </div>
+          <div class="arrows__next">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.5" y="0.5" width="40" height="40" rx="3.5" fill="white"/>
+              <path d="M23.5835 20L15.3335 28.25L17.6902 30.6066L28.2969 20L17.6902 9.39331L15.3335 11.75L23.5835 20Z" fill="#333333"/>
+              <rect x="0.5" y="0.5" width="39" height="39" rx="3.5" stroke="#D6D6D6"/>
+              </svg>
+              
+          </div>
+      </div>
+        </div>
+      <div class="flex">
+        <div class="place place--active">
+          <div class="place__title">
+            Почта России, курьер — 24-26 сент.
+            <div class="place__text">
+              ул. Академика Королева, 73/3, Петропавловск- Камчатский, 683000
+            </div>
+          </div>
+          <div class="place__price">+367 ₽</div>
+        </div>
+        <div class="place">
+          <div class="place__title">
+            Лабиринт, курьер — 25 сент.
+            <div class="place__text">
+              Можайское шоссе, д. 21, кв. 50, Москва, 121471
+            </div>
+          </div>
+          <div class="place__price">0 ₽</div>
+        </div>
+      </div>
+      <div class="new__text">Выбрать новое место и способ</div>
+      <div class="date">
+        <div class="date__block date__block--active">
+          <div class="date__title">пн, 24 сен — ср, 26 сен</div>
+          <div class="date__time">10:00–19:00</div>
+        </div>
+        <div class="date__block">
+          <div class="date__title">чт, 27 сен — пт, 28 сен</div>
+          <div class="date__time">10:00–19:00</div>
+        </div>
+        <div class="new__time">Другие дата и время</div>
+      </div>
+      <label class="cont">Viber/СМС уведомления о статусе заказа
+        <input type="checkbox" checked="checked">
+        <span class="checkmark"></span>
+      </label>
+      <label class="cont">Оставить у двери (бесконтактная доставка)
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label> 
+      </div>
+      <div class="recipient__auth">
+        <div class="checkout__title">
+          Получатель
+        </div>
+        <div class="flex">
+          <div>
+            <div class="select__name">
+              <div class="select__container">
+                <div class="select__title">Имя и фамилия</div>
+                <select class="select" name="select">
+                <option value="value2" selected>
+                  Вольфганг Вениаминович Константинопольский
+                </option>
+              </select>
+              </div>
+            </div>
+            <div class="new__text">Новый получатель</div>
+          </div>
+          <div>
+            <div class="select__number">
+              <div class="select__title">Контактный телефон</div>
+              <select class="select" name="select">
+                <option value="value2" selected>
+                  +7 910 234-56-78
+                </option>
+              </select>
+            </div>
+            <div class="new__text">Новый телефон</div>
+          </div>
+        </div>
+      </div>
+      <div class="payment__auth">
+        <div class="checkout__title">
+          Оплата
+        </div>
+        <div class="payment__blocks">
+          <div class="payment__block payment__block--white">
+            <div class="payment__title">Предоплата на сайте</div>
+            <div class="payment__text">Скидка –3%</div>
+          </div>
+          <div class="payment__block">
+            <div class="payment__title">Предоплата на сайте</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="receipt">
+      <div class="container__receipt">
+        <div class="receipt__title">В заказе 4 товара <span class="receipt__kg">(2 кг)</span></div>
+        <div class="receipt__price">
+          <div class="receipt__text">Цена товаров</div>
+          <div class="receipt__number">29 456 ₽</div>
+        </div>
+        <div class="receipt__price">
+          <div class="receipt__text">Все скидки</div>
+          <div class="receipt__number">–7 732 ₽</div>
+        </div>
+        <div class="receipt__price">
+          <div class="receipt__text">Скидка за предоплату</div>
+          <div class="receipt__number">–3%</div>
+        </div>
+        <div class="receipt__price">
+          <div class="receipt__text">Почта России, курьер, Академика Королева, 73/3, Петропавловск-
+            Камчатский, 683000
+            24 сентября, 10:00–19:00</div>
+          <div class="receipt__number">+367₽</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="btn">Оформить и оплатить</div>
+      <div class="footer__content">
+      <strong>Возврат невозможен.</strong>С выбранным способом доставки этот заказ можно будет забрать только целиком. Нельзя будет отказаться от части товаров или вернуть весь заказ <a href="" class="content__blue">Подробнее об этом</a>
+      </div>
+      <div class="footer__text">Итого к оплате на сайте:</div>
+      <div class="footer__number">21 072 ₽</div>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
